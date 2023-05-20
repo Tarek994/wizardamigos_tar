@@ -4,7 +4,22 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "budo demo/demo.js:bundle.js --live --open",
+    "build": "browserify demo/demo.js > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarek994/wizardamigos_tar.git"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/Tarek994/wizardamigos_tar/issues"
+  },
+  "homepage": "https://github.com/Tarek994/wizardamigos_tar#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.7.0"
   },
   "author": "wizardamigos_tar",
   "license": "MIT"
