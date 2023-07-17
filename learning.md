@@ -11,7 +11,7 @@
 ### Chrome DevTools
  * [x]  Inspect html/css of a random website
  * [x]  use inspect to chose a css selctors and edite the style
- * [ ]  check about bugs using console
+ * [x]  check about bugs using console
 
 - - -
 ### File System API
